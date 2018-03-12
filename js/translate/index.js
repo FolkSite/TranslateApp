@@ -13,7 +13,7 @@ type Props = {}
 type State = {
     sourceText: string, //Исходный текст
     resultText: string, //Перведенный текст
-    availableLangs: AvailableLangsData, //Поддерживаемые языков
+    availableLangs: AvailableLangsData, //Поддерживаемые языки
     targetLang: CountryCode, //Язык на который будет переведен исходный текст
     isLangFetching: boolean, //Признак опредедления языка
     isResultFetching: boolean //Признак получения результата перевода

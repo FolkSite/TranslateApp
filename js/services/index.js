@@ -74,7 +74,7 @@ const getCountryLangs = async () => {
  */
 export const getLanguages = async (): Promise<GetLanguagesResult> => {
 
-    //Возможно, получение доступных язков нежно выделить в отдельную функцию и вызывать при инициализации приложения
+    //Возможно, получение доступных язков нужно выделить в отдельную функцию и вызывать при инициализации приложения
 
     const [availableLangs, countryLanguages] = await Promise.all([getAvailableLangs(), getCountryLangs()]);
 
